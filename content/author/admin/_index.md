@@ -13,7 +13,7 @@ education:
   - course: BSc in Mathematics/Statistics
     institution: Ecole Nationale de la Statistique et de l'Analyse Economique
     year: 2014
-email: ""
+email: "yauckmamadou@gmail.com"
 interests:
 - Causal Inference
 - Capture-Recapture
@@ -21,7 +21,7 @@ interests:
 name: Mamadou Yauck
 organizations:
 - name: McGill University
-  url: ""
+  url: "https://www.mcgill.ca/"
 role: Postdoctoral Fellow
 social:
 - icon: envelope
@@ -29,13 +29,13 @@ social:
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/YauckM
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.ca/citations?user=TXfJxukAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/mamadouyauck
 superuser: true
 user_groups:
 - Researchers
