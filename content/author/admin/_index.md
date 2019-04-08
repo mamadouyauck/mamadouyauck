@@ -1,29 +1,28 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include causal inference, capture-recapture methods and machine learning.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Statistics
+    institution: Université Laval
+    year: 2019
+  - course: MSc in Statistics
+    institution: Université Laval
+    year: 2015
+  - course: BSc in Mathematics/Statistics
+    institution: Ecole Nationale de la Statistique et de l'Analyse Economique
+    year: 2014
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Nelson Bighetti
+- Causal Inference
+- Capture-Recapture
+- Machine Learning
+name: Mamadou Yauck
 organizations:
-- name: Stanford University
+- name: McGill University
   url: ""
-role: Professor of Artificial Intelligence
+role: Postdoctoral Fellow
 social:
 - icon: envelope
   icon_pack: fas
@@ -43,6 +42,8 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Fellow at McGill University/Universiy of North Carolina. He holds a PhD in Statistics from Université Laval.His research areas are causal inference, capture-recapture methods and machine learning.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Mamadou is a junior consultant at the Service de Consultation Statistique of Université Laval. He works with university researchers and external costumers on projects requiring a steady statistical analysis. He is the current head of the Centre de dépannage et d’apprentissage en mathématiques et statistique of the Faculté des Sciences et de Génie (https://www.mat.ulaval.ca/services/cda-centre-de-depannage-et-dapprentissage-en-mathematiques/). He teaches the course “Méthodes Statistiques pour Ingénieurs” to engineering students. 
+
+R & Python enthusiast, he shares blog posts on useful coding tools and is currently developing an R package to broadcast the computational aspect of his work on marketing data.
