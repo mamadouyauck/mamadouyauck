@@ -14,4 +14,4 @@ image:
 
 #References on Blogdown
 
-![](/content/post/blogdown-signpost-1.png)
+![](mamadouyauck/content/post/blogdown-signpost-1.png)
