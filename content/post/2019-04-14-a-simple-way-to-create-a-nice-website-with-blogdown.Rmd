@@ -1,16 +1,15 @@
 ---
-title: A simple way to create a nice website with blogdown
-author: Mamadou Yauck
+title: "A simple way to create a nice website with blogdown"
+author: "Mamadou Yauck"
 date: '2019-04-14'
-slug: a-simple-way-to-create-a-nice-website-with-blogdown
-categories:
-  - R
-tags:
-  - blogdown
-  - Academic
 image:
   caption: ''
   focal_point: ''
+slug: a-simple-way-to-create-a-nice-website-with-blogdown
+tags:
+- blogdown
+- Academic
+categories: R
 ---
 
 ```{r include = FALSE}
@@ -51,7 +50,7 @@ Finally, I did not want to learn more about a lot of things! For instance, the n
 
 # In GitHub
 
-![](/static/img/blogdown-signpost-1.png)
+![](blogdown-signpost-1.png)
 
 
 1. Go online to your [GitHub](https://github.com) account, and create a new repository (check to initialize with a `README` but don't add `.gitignore`- this will be taken care of later). For naming your repo, consider your future deployment plan:
@@ -64,7 +63,7 @@ You can see some of the repo names used by members of the `rbind` organization [
     
 
 
-![Screenshot above: Creating a new repository in GitHub](/img/posts/2017-06-12-up-and-running-with-blogdown/github-new-repo.png)
+![Screenshot above: Creating a new repository in GitHub](github-new-repo.png)
 
 2. Go to the main page of your new repository, and under the repository name, click the green **Clone or download** button.
 
@@ -72,7 +71,7 @@ You can see some of the repo names used by members of the `rbind` organization [
     
 # In terminal
 
-![](/img/posts/2017-06-12-up-and-running-with-blogdown/blogdown-signpost-2.png)
+![](blogdown-signpost-2.png)
 
 Now you will [clone your remote repository](https://help.github.com/articles/cloning-a-repository/) and create a local copy on your computer so you can sync between the two locations (using terminal or your alternative command line tool for a Windows machine).
     
@@ -99,7 +98,7 @@ Checking connectivity... done.
 
 # In RStudio 
 
-![](/img/posts/2017-06-12-up-and-running-with-blogdown/blogdown-signpost-3.png)
+![](blogdown-signpost-3.png)
 
 
 
@@ -129,7 +128,7 @@ This is where my instructions diverge from Ed's- he states that `blogdown` won't
 
 3. Use the top menu buttons in RStudio to select `File -> New Project -> Existing Directory`, then browse to the directory on your computer where your GitHub repo is and click on the **Create Project** button.
 
-![Screenshot above: Creating a new project in an existing directory in RStudio](/img/posts/2017-06-12-up-and-running-with-blogdown/r-project-existing-directory.png)
+![Screenshot above: Creating a new project in an existing directory in RStudio](r-project-existing-directory.png)
 
 4. Now you should be "in" your project in RStudio. If you are using git for version control, edit your `*gitignore` file. This file should be viewable in your file viewer pane in RStudio. Below is what it should look like: the first four lines will automatically be in this file if you have set up your RStudio Project, but if you plan to use Netlify to deploy, you need to add the `public/` line ([read about here](https://bookdown.org/yihui/blogdown/version-control.html).)
 
@@ -147,7 +146,7 @@ public/ # if using Netlify
 
 # Build your site in RStudio
 
-![](/img/posts/2017-06-12-up-and-running-with-blogdown/blogdown-signpost-4.png)
+![](blogdown-signpost-4.png)
 
 Now you can finally build your site using the `blogdown::new_site()` function. But **first** you should at least think about themes...
 
@@ -348,7 +347,7 @@ If you want to include an image that is not a figure created from an R chunk, th
 
 # Deploy in Netlify
 
-![](/img/posts/2017-06-12-up-and-running-with-blogdown/blogdown-signpost-5.png)
+![](blogdown-signpost-5.png)
 
 Deploying in Netlify through GitHub is smooth. Yihui and Amber give some [beginner instructions](https://bookdown.org/yihui/blogdown/deployment.html), but Netlify is so easy, I recommend that you skip dragging your `public` folder in and instead [automate the process through GitHub](https://bookdown.org/yihui/blogdown/netlify.html#netlify).
 
@@ -370,7 +369,7 @@ Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-08T18:37:40-0
 
 
 
-![Screenshot above: Basic build settings in Netlify](/img/posts/2017-06-12-up-and-running-with-blogdown/netlify-build-settings.png)
+![Screenshot above: Basic build settings in Netlify](netlify-build-settings.png)
 
 Netlify will deploy your site and assign you a random subdomain name of the form `random-word-12345.netlify.com`. Mine was particularly unfortunate, with the random word `garbage-collector-janice`. You should know that you can change this; I changed mine to `apreshill.netlify.com`. 
 
