@@ -1,0 +1,15 @@
+---
+title: A simple way to create a website with blogdown
+author: Mamadou Yauck
+date: '2019-04-14'
+slug: a-simple-way-to-create-a-website-with-blogdown
+categories:
+  - R
+tags:
+  - R Markdown
+image:
+  caption: ''
+  focal_point: ''
+---
+
+#References on Blogdown
