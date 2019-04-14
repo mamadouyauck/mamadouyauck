@@ -15,11 +15,6 @@
 
 
 [[main]]
-  name = "Publications"
-  url = "/featured/"
-  weight = 40
-
-[[main]]
   name = "Tutorials"
   url = "/tutorial/"
   weight = 50
