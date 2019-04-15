@@ -8,8 +8,8 @@ slug: blogdown-a-quebec-creation-de-sites-web-avec-r
 categories:
   - R
 tags: []
-image: ![](/img/logo_r_a_quebec_2019.png)
-  caption: ''
+image: 
+  caption: '[](/img/logo_r_a_quebec_2019.png)'
   focal_point: Right
 location: Québec, Canada
 math: true
