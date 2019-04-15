@@ -21,7 +21,7 @@ url_custom:
   name: GitHub 
   url: https://github.com/mamadouyauck/mamadouyauck
 ---
-
+{{< figure src="/img/logo_r_a_quebec_2019.png" >}}
 
 {{% alert note %}}
 Cliquer sur **Slides** pour visualiser les slides de l'atelier.
