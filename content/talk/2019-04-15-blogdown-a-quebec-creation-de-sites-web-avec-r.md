@@ -9,7 +9,7 @@ categories:
   - R
 tags: []
 image: 
-  caption: '[](/img/logo_r_a_quebec_2019.png)'
+  caption: ''
   focal_point: Right
 location: Québec, Canada
 math: true
