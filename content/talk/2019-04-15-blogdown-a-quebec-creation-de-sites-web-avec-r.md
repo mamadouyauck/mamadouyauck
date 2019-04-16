@@ -17,8 +17,8 @@ math: true
 slides: example-slides
 summary: Cet atelier présente une approche simple et pratique de conception et de déploiement d’un site web ou d’un blog avec R.
 Abstract: Cet atelier présente une approche simple et pratique de conception et de déploiement d’un site web ou d’un blog avec R. De façon spécifique, il montre comment se combinent la puissance de RStudio, du package Blogdown, de la plateforme de thèmes HUGO, du réseau social GitHub et de la plateforme de déploiement Netlify pour créer et déployer un blog ou un site web.
-url_custom:
-  name: GitHub 
+links:
+- name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
 ---
 {{< figure src="/img/logo_r_a_quebec_2019.png" >}}
