@@ -13,6 +13,11 @@ output:
       countIncrementalSlides: false
 ---
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
+```
+
 
 class:center, middle
 
@@ -29,3 +34,12 @@ class:center, middle
 
 #Second slide.
 
+---
+
+# Install **blogdown**
+
+`blogdown` is available on CRAN.
+
+```{r}
+install.packages("blogdown")
+```
