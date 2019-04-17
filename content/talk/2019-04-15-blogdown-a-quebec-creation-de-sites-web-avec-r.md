@@ -20,6 +20,9 @@ Abstract: Cet atelier présente une approche simple et pratique de conception et
 links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
+
+- name: Pre-workshop
+  url: /slides/r_a_quebec.html
 ---
 {{< figure src="/img/logo_r_a_quebec_2019.png" >}}
 
