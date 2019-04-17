@@ -1,6 +1,6 @@
 ---
 slides:
-  theme: black
+  theme: white
 title: Slides
 ---
 
