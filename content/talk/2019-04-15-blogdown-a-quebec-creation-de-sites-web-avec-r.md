@@ -21,8 +21,6 @@ links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
 
-- name: Pre-workshop
-  url: /Presentation/r_a_quebec.html
 ---
 {{< figure src="/img/logo_r_a_quebec_2019.png" >}}
 
