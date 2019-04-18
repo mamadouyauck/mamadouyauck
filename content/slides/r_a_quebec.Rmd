@@ -19,20 +19,35 @@ knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
 ```
 
 
-class:center, middle
+class:inverse, center, middle
 
 
 
-#First slide.
+#Empty slide
 
 ---
 
 
-class:center, middle
+#GitHub
 
 
+![](blogdown-signpost-1.png)
 
-#Second slide.
+---
+
+#Create a GitHub repository
+
+--
+
+1. Open your [GitHub](https://github.com) account and create a new repository (check to initialize with a `README` but don't add `.gitignore` for now).
+
+--
+
+1. Go to the main page of the repository, and under the repository name, click the **Clone or download** button.
+
+--
+
+1. In the **Clone with HTTPs** section, click on the clipboard icon to copy the clone URL for the new repository (we will paste this text into the terminal in the next section.) 
 
 ---
 
