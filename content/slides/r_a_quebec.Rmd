@@ -39,7 +39,7 @@ class:inverse, center, middle
 
 --
 
-1. Open your [GitHub](https://github.com) account and create a new repository (check to initialize with a `README` but don't add `.gitignore` for now).
+1. Open your [GitHub](https://github.com) account and create a new repository (initialize with a `README` but don't add `.gitignore` for now).
 
 --
 
@@ -51,6 +51,36 @@ class:inverse, center, middle
 
 ---
 
+#Command line/Terminal
+
+
+![](blogdown-signpost-2.png)
+
+---
+
+# Clone the GitHub repository
+
+We are going to create a local copy of the repository on your computer so you can make the two locations communicate (using the command line tool for Windows or the Terminal for Mac OS X).
+--
+    
+1. Use `cd` to indicate the directory where you want your repository to be located
+
+--
+
+1. Type: `git clone [paste]`.
+
+--
+
+1. Close the command line/terminal.
+
+--
+
+
+
+For more details, see [clone your remote repository](https://help.github.com/articles/cloning-a-repository/).
+
+
+---
 # Install **blogdown**
 
 `blogdown` is available on CRAN.
