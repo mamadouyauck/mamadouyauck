@@ -62,7 +62,10 @@ class:inverse, center, middle
 
 # Clone the GitHub repository
 
+--
+
 We are going to create a local copy of the repository on your computer so you can make the two locations communicate (using the command line tool for Windows or the Terminal for Mac OS X).
+
 --
     
 1. Use `cd` to indicate the directory where you want your repository to be located
@@ -90,6 +93,8 @@ For more details, see [clone your remote repository](https://help.github.com/art
 ---
 
 #Blogdown and Hugo
+
+--
 
 - Install the package `blogdown` from  RStudio or use `install.packages("devtools") devtools::install_github("rstudio/blogdown")`
 
@@ -128,6 +133,8 @@ public/ # for Netlify
 ---
 
 #Choose a theme !
+
+--
 
 To choose a theme, see [Hugo themes](https://themes.gohugo.io/). To save time, see [Bookdown suggested themes](https://bookdown.org/yihui/blogdown/other-themes.html).
 
