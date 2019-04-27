@@ -79,12 +79,134 @@ We are going to create a local copy of the repository on your computer so you ca
 
 For more details, see [clone your remote repository](https://help.github.com/articles/cloning-a-repository/).
 
+---
+
+#RStudio
+
+![](blogdown-signpost-3.png)
 
 ---
-# Install **blogdown**
 
-`blogdown` is available on CRAN.
+#Blogdown and Hugo
 
-```{r}
-install.packages("blogdown")
+- Install the package `blogdown` from  RStudio or use `install.packages("devtools") devtools::install_github("rstudio/blogdown")`
+
+--
+
+- Install Hugo:
+
 ```
+blogdown::install_hugo()
+library(blogdown)
+install_hugo()
+```
+--
+
+- Use the `File` button in RStudio to select `File -> New Project -> Existing Directory`, then browse to the directory on your computer where your GitHub repository is and click on **Create Project**.
+
+--
+
+- Edit the `*gitignore` file. If you want to use Netlify to deploy your website, you should add the `public/` line ([for more info](https://bookdown.org/yihui/blogdown/version-control.html).)
+
+```
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+.DS_Store # Thumbs.db for Windows users
+public/ # for Netlify
+```
+---
+
+#Build your site
+
+![](blogdown-signpost-4.png)
+
+---
+
+#Choose a theme !
+
+To choose a theme, see [Hugo themes](https://themes.gohugo.io/). To save time, see [Bookdown suggested themes](https://bookdown.org/yihui/blogdown/other-themes.html).
+
+--
+
+- You can use the default `lithium` theme: 
+
+```
+blogdown::new_site() 
+```
+--
+
+- If you choose a theme, you can specify it while calling the `new_site` function. If you choose the `academic` theme:
+
+```
+blogdown::new_site(theme = "gcushen/hugo-academic", theme_example = TRUE)
+```
+--
+
+- If you want to add a theme later:
+    
+```
+library(blogdown)
+new_site() # default theme 
+install_theme("gcushen/hugo-academic", theme_example = TRUE, update_config = TRUE)
+```
+---
+
+#Some basic edits
+
+--
+
+- Update project options by doing `Tools -> Project Options` and following [Bookdown instructions](https://bookdown.org/yihui/blogdown/rstudio-ide.html#fig:project-options).
+
+--
+
+- Edit the `baseurl` in your `config.toml` file. The URL *should always* end with a `/`:
+
+```
+baseurl = "https://website.com/"
+baseurl = "/"
+```
+Feel free to edit other elements of the `config.toml` file ! For more details on configuration settings, read [Bookdown chapter on configuration](https://bookdown.org/yihui/blogdown/configuration.html).
+
+--
+
+- To view your new site locally, use the **Serve Site** button, or run `blogdown::serve_site`
+
+---
+
+#Deploy your site in Netlify
+
+![](blogdown-signpost-5.png)
+
+---
+
+#Steps to deploy your site
+
+--
+
+- `Commit` your changes and `push` to `GitHub`.
+
+--
+
+- Go to [Netlify](https://www.netlify.com) and **Sign Up** using your `GitHub` account.
+
+--
+
+- Log in and click on: `New site from Git -> Continuous Deployment: GitHub`.
+
+--
+
+- Select the `GitHub` repository already in use with `blogdown`, then specify the `build` command and the `publish directory` (to `public`).
+
+--
+
+- Your website is now deployed ! Netlify will assign you a subdomain name of the form `somethingbizarre.netlify.com`. You can change the subdomai name, for example to `mamadouyauck.netlify.com`. 
+
+
+When you change your subdomain name, you must update the `baseurl` in your `config.toml` file,for example to `baseurl = "https://mamadouyauck.netlify.com/"`.
+
+
+For more details, see [Bookdown deployment instructions](https://bookdown.org/yihui/blogdown/deployment.html), or [deploy with Netlify through GitHub](https://bookdown.org/yihui/blogdown/netlify.html#netlify).
+---
