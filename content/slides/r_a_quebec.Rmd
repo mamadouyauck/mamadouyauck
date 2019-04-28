@@ -2,7 +2,7 @@
 title: "A simple way to create a website with Blogdown"
 subtitle: "R à Québec Workshop"
 author: "Mamadou Yauck"
-date: "2019-04-17"
+date: "2019-05-13"
 output:
   xaringan::moon_reader:
     css: ["default-fonts","default","rladies-fonts", "rladies"]
@@ -22,13 +22,6 @@ knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
 
 
 
-class:inverse, center, middle
-
-
-
-#Empty slide
-
----
 
 
 #GitHub
@@ -91,6 +84,12 @@ For more details, see [clone your remote repository](https://help.github.com/art
 
 ![](blogdown-signpost-3.png)
 
+---
+class: center
+
+#What is Blogdown ?
+
+![](blogdown-package.png)
 ---
 
 #Blogdown and Hugo
@@ -225,4 +224,11 @@ For more details, see [Bookdown deployment instructions](https://bookdown.org/yi
 class: inverse, center, middle
 
 
-##Ready to go further ?
+##Contact me
+
+[Personal website](https://mamadouyauck.rbind.io/)<br>
+[GitHub repository](https://github.com/mamadouyauck/mamadouyauck)<br>
+[Twitter page](https://twitter.com/YauckM)
+
+
+
