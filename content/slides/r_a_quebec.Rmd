@@ -13,6 +13,8 @@ output:
       countIncrementalSlides: false
       includes:
       in_header: header.html
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
