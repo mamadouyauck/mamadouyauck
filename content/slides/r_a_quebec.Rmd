@@ -5,7 +5,7 @@ author: "Mamadou Yauck"
 date: "2019-04-17"
 output:
   xaringan::moon_reader:
-    css: ["rladies", "rladies-fonts"]
+    css: ["default","rladies", "rladies-fonts"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,14 +13,7 @@ output:
       countIncrementalSlides: false
       includes:
       in_header: header.html
-editor_options: 
-  chunk_output_type: inline
 ---
-
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
-```
 
 
 class:inverse, center, middle
