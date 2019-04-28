@@ -20,7 +20,7 @@ links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
 - name: Slides
-  url: /slides/r_a_quebec.Rmd
+  url: /slides/r_a_quebec.pdf
 
 ---
 {{< figure src="/img/logo_r_a_quebec_2019.png" >}}
