@@ -5,7 +5,7 @@ author: "Mamadou Yauck"
 date: "2019-04-17"
 output:
   xaringan::moon_reader:
-    css: ["default", "hygge-duke", "rladies-fonts"]
+    css: ["rladies", "rladies-fonts"]
     lib_dir: libs
     nature:
       highlightStyle: github
