@@ -15,6 +15,12 @@ output:
       in_header: header.html
 ---
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
+```
+
+
 
 class:inverse, center, middle
 
