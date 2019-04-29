@@ -22,7 +22,7 @@ name: Mamadou Yauck
 organizations:
 - name: McGill University
   url: "https://www.mcgill.ca/"
-role: Postdoctoral Fellow
+role: Postdoctoral Researcher
 social:
 - icon: envelope
   icon_pack: fas
