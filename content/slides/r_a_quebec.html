@@ -1,334 +1,202 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-  <head>
-    <title>A simple way to create a website with Blogdown</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Mamadou Yauck" />
-    <meta name="date" content="2019-05-13" />
-    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# A simple way to create a website with Blogdown
-## R à Québec Workshop
-### Mamadou Yauck
-### 2019-05-13
-
+---
+title: "A simple way to create a website with Blogdown"
+subtitle: "R à Québec Workshop"
+author: "Mamadou Yauck"
+date: "2019-05-13"
+output:
+  xaringan::moon_reader:
+    css: ["default-fonts","default","rladies-fonts", "rladies"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      includes:
+      in_header: header.html
 ---
 
 
 
+<div id="github" class="section level1">
+<h1>GitHub</h1>
+<div class="figure">
+<img src="blogdown-signpost-1.png" />
 
+</div>
+<hr />
+</div>
+<div id="create-a-github-repository" class="section level1">
+<h1>Create a GitHub repository</h1>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>Open your <a href="https://github.com">GitHub</a> account and create a new repository (initialize with a <code>README</code> but don’t add <code>.gitignore</code> for now).</li>
+</ol>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>Go to the main page of the repository, and under the repository name, click the <strong>Clone or download</strong> button.</li>
+</ol>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>In the <strong>Clone with HTTPs</strong> section, click on the clipboard icon to copy the clone URL for the new repository (we will paste this text into the terminal in the next section.)</li>
+</ol>
+<hr />
+</div>
+<div id="command-lineterminal" class="section level1">
+<h1>Command line/Terminal</h1>
+<div class="figure">
+<img src="blogdown-signpost-2.png" />
 
+</div>
+<hr />
+</div>
+<div id="clone-the-github-repository" class="section level1">
+<h1>Clone the GitHub repository</h1>
+<p>–</p>
+<p>We are going to create a local copy of the repository on your computer so you can make the two locations communicate (using the command line tool for Windows or the Terminal for Mac OS X).</p>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>Use <code>cd</code> to indicate the directory where you want your repository to be located</li>
+</ol>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>Type: <code>git clone [paste]</code>.</li>
+</ol>
+<p>–</p>
+<ol style="list-style-type: decimal">
+<li>Close the command line/terminal.</li>
+</ol>
+<p>–</p>
+<p>For more details, see <a href="https://help.github.com/articles/cloning-a-repository/">clone your remote repository</a>.</p>
+<hr />
+</div>
+<div id="rstudio" class="section level1">
+<h1>RStudio</h1>
+<div class="figure">
+<img src="blogdown-signpost-3.png" />
 
-
-
-#GitHub
-
-
-![](blogdown-signpost-1.png)
-
----
-
-#Create a GitHub repository
-
---
-
-1. Open your [GitHub](https://github.com) account and create a new repository (initialize with a `README` but don't add `.gitignore` for now).
-
---
-
-1. Go to the main page of the repository, and under the repository name, click the **Clone or download** button.
-
---
-
-1. In the **Clone with HTTPs** section, click on the clipboard icon to copy the clone URL for the new repository (we will paste this text into the terminal in the next section.) 
-
----
-
-#Command line/Terminal
-
-
-![](blogdown-signpost-2.png)
-
----
-
-# Clone the GitHub repository
-
---
-
-We are going to create a local copy of the repository on your computer so you can make the two locations communicate (using the command line tool for Windows or the Terminal for Mac OS X).
-
---
-    
-1. Use `cd` to indicate the directory where you want your repository to be located
-
---
-
-1. Type: `git clone [paste]`.
-
---
-
-1. Close the command line/terminal.
-
---
-
-
-
-For more details, see [clone your remote repository](https://help.github.com/articles/cloning-a-repository/).
-
----
-
-#RStudio
-
-![](blogdown-signpost-3.png)
-
----
-class: center
-
-#What is Blogdown ?
-
-![](blogdown-package.png)
----
-
-#Blogdown and Hugo
-
---
-
-- Install the package `blogdown` from  RStudio or use `install.packages("devtools") devtools::install_github("rstudio/blogdown")`
-
---
-
-- Install Hugo:
-
-```
-blogdown::install_hugo()
+</div>
+</div>
+<div id="blogdown-and-hugo" class="section level1">
+<h1>Blogdown and Hugo</h1>
+<p>–</p>
+<ul>
+<li>Install the package <code>blogdown</code> from RStudio or use <code>install.packages(&quot;devtools&quot;) devtools::install_github(&quot;rstudio/blogdown&quot;)</code></li>
+</ul>
+<p>–</p>
+<ul>
+<li>Install Hugo:</li>
+</ul>
+<pre><code>blogdown::install_hugo()
 library(blogdown)
-install_hugo()
-```
---
-
-- Use the `File` button in RStudio to select `File -&gt; New Project -&gt; Existing Directory`, then browse to the directory on your computer where your GitHub repository is and click on **Create Project**.
-
---
-
-- Edit the `*gitignore` file. If you want to use Netlify to deploy your website, you should add the `public/` line ([for more info](https://bookdown.org/yihui/blogdown/version-control.html).)
-
-```
-.Rproj.user
+install_hugo()</code></pre>
+<p>–</p>
+<ul>
+<li>Use the <code>File</code> button in RStudio to select <code>File -&gt; New Project -&gt; Existing Directory</code>, then browse to the directory on your computer where your GitHub repository is and click on <strong>Create Project</strong>.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Edit the <code>*gitignore</code> file. If you want to use Netlify to deploy your website, you should add the <code>public/</code> line (<a href="https://bookdown.org/yihui/blogdown/version-control.html">for more info</a>.)</li>
+</ul>
+<pre><code>.Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 blogdown
 .DS_Store # Thumbs.db for Windows users
-public/ # for Netlify
-```
----
+public/ # for Netlify</code></pre>
+<hr />
+</div>
+<div id="build-your-site" class="section level1">
+<h1>Build your site</h1>
+<div class="figure">
+<img src="blogdown-signpost-4.png" />
 
-#Build your site
-
-![](blogdown-signpost-4.png)
-
----
-
-#Choose a theme !
-
---
-
-To choose a theme, see [Hugo themes](https://themes.gohugo.io/). To save time, see [Bookdown suggested themes](https://bookdown.org/yihui/blogdown/other-themes.html).
-
---
-
-- You can use the default `lithium` theme: 
-
-```
-blogdown::new_site() 
-```
---
-
-- If you choose a theme, you can specify it while calling the `new_site` function. If you choose the `academic` theme:
-
-```
-blogdown::new_site(theme = "gcushen/hugo-academic", theme_example = TRUE)
-```
---
-
-- If you want to add a theme later:
-    
-```
-library(blogdown)
+</div>
+<hr />
+</div>
+<div id="choose-a-theme" class="section level1">
+<h1>Choose a theme !</h1>
+<p>–</p>
+<p>To choose a theme, see <a href="https://themes.gohugo.io/">Hugo themes</a>. To save time, see <a href="https://bookdown.org/yihui/blogdown/other-themes.html">Bookdown suggested themes</a>.</p>
+<p>–</p>
+<ul>
+<li>You can use the default <code>lithium</code> theme:</li>
+</ul>
+<pre><code>blogdown::new_site() </code></pre>
+<p>–</p>
+<ul>
+<li>If you choose a theme, you can specify it while calling the <code>new_site</code> function. If you choose the <code>academic</code> theme:</li>
+</ul>
+<pre><code>blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;, theme_example = TRUE)</code></pre>
+<p>–</p>
+<ul>
+<li>If you want to add a theme later:</li>
+</ul>
+<pre><code>library(blogdown)
 new_site() # default theme 
-install_theme("gcushen/hugo-academic", theme_example = TRUE, update_config = TRUE)
-```
----
+install_theme(&quot;gcushen/hugo-academic&quot;, theme_example = TRUE, update_config = TRUE)</code></pre>
+<hr />
+</div>
+<div id="some-basic-edits" class="section level1">
+<h1>Some basic edits</h1>
+<p>–</p>
+<ul>
+<li>Update project options by doing <code>Tools -&gt; Project Options</code> and following <a href="https://bookdown.org/yihui/blogdown/rstudio-ide.html#fig:project-options">Bookdown instructions</a>.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Edit the <code>baseurl</code> in your <code>config.toml</code> file. The URL <em>should always</em> end with a <code>/</code>:</li>
+</ul>
+<pre><code>baseurl = &quot;https://website.com/&quot;
+baseurl = &quot;/&quot;</code></pre>
+<p>Feel free to edit other elements of the <code>config.toml</code> file ! For more details on configuration settings, read <a href="https://bookdown.org/yihui/blogdown/configuration.html">Bookdown chapter on configuration</a>.</p>
+<p>–</p>
+<ul>
+<li>To view your new site locally, use the <strong>Serve Site</strong> button, or run <code>blogdown::serve_site</code></li>
+</ul>
+<hr />
+</div>
+<div id="deploy-your-site-in-netlify" class="section level1">
+<h1>Deploy your site in Netlify</h1>
+<div class="figure">
+<img src="blogdown-signpost-5.png" />
 
-#Some basic edits
-
---
-
-- Update project options by doing `Tools -&gt; Project Options` and following [Bookdown instructions](https://bookdown.org/yihui/blogdown/rstudio-ide.html#fig:project-options).
-
---
-
-- Edit the `baseurl` in your `config.toml` file. The URL *should always* end with a `/`:
-
-```
-baseurl = "https://website.com/"
-baseurl = "/"
-```
-Feel free to edit other elements of the `config.toml` file ! For more details on configuration settings, read [Bookdown chapter on configuration](https://bookdown.org/yihui/blogdown/configuration.html).
-
---
-
-- To view your new site locally, use the **Serve Site** button, or run `blogdown::serve_site`
-
----
-
-#Deploy your site in Netlify
-
-![](blogdown-signpost-5.png)
-
----
-
-#Steps to deploy your site
-
---
-
-- `Commit` your changes and `push` to `GitHub`.
-
---
-
-- Go to [Netlify](https://www.netlify.com) and **Sign Up** using your `GitHub` account.
-
---
-
-- Log in and click on: `New site from Git -&gt; Continuous Deployment: GitHub`.
-
---
-
-- Select the `GitHub` repository already in use with `blogdown`, then specify the `build` command and the `publish directory` (to `public`).
-
---
-
-- Your website is now deployed ! Netlify will assign you a subdomain name of the form `somethingbizarre.netlify.com`. You can change the subdomai name, for example to `mamadouyauck.netlify.com`. 
-
-
-When you change your subdomain name, you must update the `baseurl` in your `config.toml` file,for example to `baseurl = "https://mamadouyauck.netlify.com/"`.
-
-
-For more details, see [Bookdown deployment instructions](https://bookdown.org/yihui/blogdown/deployment.html), or [deploy with Netlify through GitHub](https://bookdown.org/yihui/blogdown/netlify.html#netlify).
-
----
-
-#Reference
-
-[Alison Hill's Up and running with Blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/)
-
----
-
-class: inverse, center, middle
-
-
-##Contact me
-
-[Personal website](https://mamadouyauck.rbind.io/)&lt;br&gt;
-[GitHub repository](https://github.com/mamadouyauck/mamadouyauck)&lt;br&gt;
-[Twitter page](https://twitter.com/YauckM)
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"includes": null,
-"in_header": "header.html"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();</script>
-
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+</div>
+<hr />
+</div>
+<div id="steps-to-deploy-your-site" class="section level1">
+<h1>Steps to deploy your site</h1>
+<p>–</p>
+<ul>
+<li><code>Commit</code> your changes and <code>push</code> to <code>GitHub</code>.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Go to <a href="https://www.netlify.com">Netlify</a> and <strong>Sign Up</strong> using your <code>GitHub</code> account.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Log in and click on: <code>New site from Git -&gt; Continuous Deployment: GitHub</code>.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Select the <code>GitHub</code> repository already in use with <code>blogdown</code>, then specify the <code>build</code> command and the <code>publish directory</code> (to <code>public</code>).</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Your website is now deployed ! Netlify will assign you a subdomain name of the form <code>somethingbizarre.netlify.com</code>. You can change the subdomai name, for example to <code>mamadouyauck.netlify.com</code>.</li>
+</ul>
+<p>When you change your subdomain name, you must update the <code>baseurl</code> in your <code>config.toml</code> file,for example to <code>baseurl = &quot;https://mamadouyauck.netlify.com/&quot;</code>.</p>
+<p>For more details, see <a href="https://bookdown.org/yihui/blogdown/deployment.html">Bookdown deployment instructions</a>, or <a href="https://bookdown.org/yihui/blogdown/netlify.html#netlify">deploy with Netlify through GitHub</a>.</p>
+<hr />
+</div>
+<div id="reference" class="section level1">
+<h1>Reference</h1>
+<p><a href="https://alison.rbind.io/post/up-and-running-with-blogdown/">Alison Hill’s Up and running with Blogdown</a></p>
+<hr />
+<p>class: inverse, center, middle</p>
+<div id="contact-me" class="section level2">
+<h2>Contact me</h2>
+<p><a href="https://mamadouyauck.rbind.io/">Personal website</a><br> <a href="https://github.com/mamadouyauck/mamadouyauck">GitHub repository</a><br> <a href="https://twitter.com/YauckM">Twitter page</a></p>
+</div>
+</div>

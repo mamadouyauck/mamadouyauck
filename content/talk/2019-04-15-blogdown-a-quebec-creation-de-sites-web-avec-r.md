@@ -19,6 +19,8 @@ Abstract: Cet atelier présente une approche simple et pratique de conception et
 links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
+- name: Pre-workshop
+  url: /talk/2019-04-30-blogdown-a-quebec-before-work
 - name: Slides
   url: /slides/r_a_quebec.pdf
 
