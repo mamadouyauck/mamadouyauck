@@ -1,7 +1,6 @@
 ---
 title: 'Blogdown à Québec: before the workshop'
 author: Mamadou Yauck
-date: '2019-04-29T08:30:00-04:00'
 slug: blogdown-a-quebec-before-work
 categories:
   - R
