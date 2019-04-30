@@ -1,5 +1,5 @@
 ---
-title: 'Blogdown à Québec: before the workshop'
+title: 'Blogdown à Québec: création de sites web avec R'
 author: Mamadou Yauck
 date: "2019-04-12T08:30:00-04:00"
 date_end: "2019-04-12T17:00:00-04:00"
@@ -21,7 +21,6 @@ image:
 - Install:
 
     * [R](https://cran.cnr.berkeley.edu) 
-
     * [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/)
     
     
@@ -42,7 +41,6 @@ image:
  * A [GitHub](https://github.com) account
 
 ## References
-
 
   * [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
   * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
