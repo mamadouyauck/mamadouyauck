@@ -34,7 +34,7 @@ output:
     * [Homebrew](https://brew.sh)
 
 
-- Install **blogdown** by following the *Bookdown* instructions:
+- Install `blogdown` by following the **Bookdown** instructions:
 
     * https://bookdown.org/yihui/blogdown/installation.html
 
