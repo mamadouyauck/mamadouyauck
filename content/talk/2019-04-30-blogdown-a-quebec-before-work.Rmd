@@ -1,5 +1,5 @@
 ---
-title: 'Blogdown à Québec: création de sites web avec R'
+title: 'Blogdown à Québec: before the workshop'
 author: Mamadou Yauck
 date: '2019-04-30'
 slug: blogdown-a-quebec-before-work
@@ -36,14 +36,14 @@ image:
 
 ## Create
 
-- A [GitHub](https://github.com) account
+ * A [GitHub](https://github.com) account
 
 ## References
 
 
-- [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
-- [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
-- [Making a Website Using **blogdown**, Hugo, and GitHub pages](https://proquestionasker.github.io/blog/Making_Site/)
+  * [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
+  * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
+  * [Making a Website Using **blogdown**, Hugo, and GitHub pages](https://proquestionasker.github.io/blog/Making_Site/)
 
 
 
