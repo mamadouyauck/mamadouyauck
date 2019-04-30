@@ -1,16 +1,24 @@
 ---
-title: 'Blogdown à Québec: création de sites web avec R'
-author: Mamadou Yauck
+title: 'Blogdown Ã  QuÃ©bec: crÃ©ation de sites web avec R'
+author: "Mamadou Yauck"
 date: '2019-04-30'
-slug: blogdown-a-quebec-before-work
-categories:
-  - R
-tags:
-  - R
-  - Blogdown
 image:
   caption: ''
   focal_point: ''
+slug: blogdown-a-quebec-before-work
+tags:
+- R
+- Blogdown
+categories: R
+output:
+  html_document:
+    keep_md: FALSE
+    highlight: pygments
+    theme: flatly
+    smart: false
+    toc: true
+    number_sections: true
+    toc_float: true
 ---
 ## Installation
 

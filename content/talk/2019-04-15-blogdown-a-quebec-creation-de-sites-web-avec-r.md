@@ -20,7 +20,7 @@ links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
 - name: Pre-workshop
-  url: /publication/2019-04-30-blogdown-a-quebec-before-work.md
+  url: /publication/2019-04-30-blogdown-a-quebec-before-work.html
 - name: Slides
   url: /slides/r_a_quebec.pdf
 
