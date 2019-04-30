@@ -1,8 +1,8 @@
 ---
-title: 'Blogdown à Québec: création de sites web avec R'
+title: 'Blogdown à Québec: before the workshop'
 author: Mamadou Yauck
-date: "2019-04-12T08:30:00-04:00"
-date_end: "2019-04-12T17:00:00-04:00"
+date: "2019-04-15T08:30:00-04:00"
+date_end: "2019-04-15T17:00:00-04:00"
 event: R à Québec
 event_url: http://raquebec.ulaval.ca/2019/
 slug: blogdown-a-quebec-before-work
@@ -14,6 +14,10 @@ tags:
 image:
   caption: ''
   focal_point: ''
+output:
+    toc: true
+    number_sections: true
+    toc_float: true
 ---
 
 ## Installation
@@ -28,7 +32,6 @@ image:
 
     * [Xcode](https://developer.apple.com/xcode/)
     * [Homebrew](https://brew.sh)
-
 
 
 - Install **blogdown** by following the *Bookdown* instructions:
