@@ -20,7 +20,7 @@ output:
     toc_float: true
 ---
 
-## Installation
+## I. Installation
 
 - Install:
 
@@ -39,11 +39,11 @@ output:
     * https://bookdown.org/yihui/blogdown/installation.html
 
 
-## Create
+## II. Create
 
  * A [GitHub](https://github.com) account
 
-## References
+## III. References
 
   * [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
   * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
