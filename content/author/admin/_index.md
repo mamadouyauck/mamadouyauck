@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include causal inference, capture-recapture methods and machine learning.
+bio: My research interests include causal inference, capture-recapture methods and longitudinal data analysis.
 education:
   courses:
   - course: PhD in Statistics
