@@ -42,8 +42,4 @@ user_groups:
 - Visitors
 ---
 
-Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Fellow at McGill University/Universiy of North Carolina. He holds a PhD in Statistics from Université Laval.His research areas are causal inference, capture-recapture methods and machine learning.
-
-Mamadou is a junior consultant at the Service de Consultation Statistique of Université Laval. He works with university researchers and external costumers on projects requiring a steady statistical analysis. He is the current head of the Centre de dépannage et d’apprentissage en mathématiques et statistique of the Faculté des Sciences et de Génie (https://www.mat.ulaval.ca/services/cda-centre-de-depannage-et-dapprentissage-en-mathematiques/). He teaches the course “Méthodes Statistiques pour Ingénieurs” to engineering students. 
-
-R & Python enthusiast, he shares blog posts on useful coding tools and is currently developing an R package to broadcast the computational aspect of his work on marketing data.
+Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Researcher at McGill University/Universiy of North Carolina. He holds a PhD in Statistics from Université Laval.His research areas are causal inference, capture-recapture methods and longitudinal data analysis.
