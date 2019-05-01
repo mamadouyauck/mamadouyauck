@@ -34,6 +34,8 @@ output:
     * [Homebrew](https://brew.sh)
 
 
+
+
 - Install `blogdown` by following the Bookdown instructions:
 
     * https://bookdown.org/yihui/blogdown/installation.html
@@ -48,7 +50,7 @@ output:
   * [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
   * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
   * [Making a Website Using **blogdown**, Hugo, and GitHub pages](https://proquestionasker.github.io/blog/Making_Site/)
-  *[Building pages with Academic theme](https://sourcethemes.com/academic/docs/page-builder/)
+  * [Building pages with Academic theme](https://sourcethemes.com/academic/docs/page-builder/)
 
 
 
