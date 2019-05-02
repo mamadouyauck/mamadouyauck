@@ -37,6 +37,7 @@ output:
 ## II. Create
 
  * A [GitHub](https://github.com) account
+ * A [Netlify](https://www.netlify.com/) account by logging in with your GitHub account
 
 ## III. References
 
