@@ -1,7 +1,7 @@
 ---
 title: "A simple way to create a website with Blogdown"
 subtitle: "R à Québec Workshop"
-author: "Mamadou Yauck"
+author: "Mamadou Yauck & Sergio Ewane Ebouele"
 date: "2019-05-13"
 output:
   xaringan::moon_reader:
