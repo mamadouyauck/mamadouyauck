@@ -26,6 +26,7 @@ output:
 
     * [R](https://cran.cnr.berkeley.edu) 
     * [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/)
+    * [Git](https://git-scm.com/downloads)
     
     
 - For Mac users, install (also):
