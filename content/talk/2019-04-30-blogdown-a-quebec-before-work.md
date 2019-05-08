@@ -46,6 +46,7 @@ output:
   * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
   * [Making a Website Using **blogdown**, Hugo, and GitHub pages](https://proquestionasker.github.io/blog/Making_Site/)
   * [Building pages with the Academic theme](https://sourcethemes.com/academic/docs/page-builder/)
+  * [Happy Git and GitHub for the useR](https://happygitwithr.com/push-pull-github.html#push-pull-github)
 
 
 
