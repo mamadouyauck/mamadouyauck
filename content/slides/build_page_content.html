@@ -1,170 +1,76 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-  <head>
-    <title>Blogdown: build your homepage and create content</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Mamadou Yauck &amp; Sergio Ewane Ebouele" />
-    <meta name="date" content="2019-05-13" />
-    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
-    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Blogdown: build your homepage and create content
-## R à Québec Workshop
-### Mamadou Yauck &amp; Sergio Ewane Ebouele
-### 2019-05-13
-
+---
+title: "Blogdown: build your homepage and create content"
+subtitle: "R à Québec Workshop"
+author: "Mamadou Yauck & Sergio Ewane Ebouele"
+date: "2019-05-13"
+output:
+  xaringan::moon_reader:
+    css: ["default-fonts","default","rladies-fonts", "rladies"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      includes:
+      in_header: header.html
 ---
 
 
 
-
-class: inverse, center, middle
-
-# Explore your new site
-
----
-#Hugo directory structure
-
-
-```r
-.
+<p>class: inverse, center, middle</p>
+<div id="explore-your-new-site" class="section level1">
+<h1>Explore your new site</h1>
+</div>
+<div id="hugo-directory-structure" class="section level1">
+<h1>Hugo directory structure</h1>
+<pre class="r"><code>.
 ├── archetypes
-├── config
+{{├── config}}
 ├── config.toml
 ├── content
 ├── public
 ├── static
-├── themes
-```
-
----
-#Hugo directory structure
-
-
-```r
-.
-├── archetypes
-*├── config
-├── config.toml
-├── content
-├── public
-├── static
-├── themes
-```
-
----
-#Hugo directory structure
-
-
-```r
-.
-├── archetypes
-├── config
-*├── config.toml
-├── content
-├── public
-├── static
-├── themes
-```
----
-#Hugo directory structure
-
-
-```r
-.
+├── themes</code></pre>
+</div>
+<div id="hugo-directory-structure-1" class="section level1">
+<h1>Hugo directory structure</h1>
+<pre class="r"><code>.
 ├── archetypes
 ├── config
 ├── config.toml
-*├── content
+{{├── content}}
     └── author
     └── home
     └── post
 ├── public
 ├── static
-├── themes
-```
-
----
-#Hugo directory structure
-
-
-```r
-.
+├── themes</code></pre>
+</div>
+<div id="serve-your-site-locally" class="section level1">
+<h1>Serve your site (locally)</h1>
+<p>–</p>
+<ul>
+<li>Console</li>
+</ul>
+<pre class="r"><code>blogdown::serve_site()</code></pre>
+<p>–</p>
+<ul>
+<li><a href="https://rstudio.github.io/rstudioaddins/">The RStudio Addin <code>Serve Site</code></a></li>
+</ul>
+<p>class: inverse, center, middle</p>
+</div>
+<div id="edit-your-new-site" class="section level1">
+<h1>Edit your new site</h1>
+<div id="edit-your-home-page" class="section level2">
+<h2>Edit your home page</h2>
+</div>
+<div id="update-your-cv" class="section level2">
+<h2>Update your CV</h2>
+<pre class="r"><code>.
 ├── archetypes
 ├── config
 ├── config.toml
-├── content
-├── public
-*├── static
-    └── img
-├── themes
-```
-
----
-
-#Serve your site (locally)
-
---
-
-- Console
-
-
-```r
-blogdown::serve_site()
-```
-
---
-
-- [The RStudio Addin `Serve Site`](https://rstudio.github.io/rstudioaddins/)
-
----
-class: inverse, center, middle
-
-#Edit your new site
-
-For more details, see [Academic's page builder](https://sourcethemes.com/academic/docs/page-builder/)
-
----
-class: inverse, center, middle
-
-#Edit your new site
-##Edit your home page
-
----
-##Change your bio
-
-
-```r
-.
-├── archetypes
-├── config
-├── config.toml
-*├── content
-    └── author
-      └── admin
-        └── index.md
-├── public
-├── static
-├── themes
-```
-
-
----
-##Update your CV
-
-
-```r
-.
-├── archetypes
-├── config
-├── config.toml
-*├── content
+{{├── content}}
     └── home
       └── accomplishments.md
       └── experience.md
@@ -172,140 +78,14 @@ class: inverse, center, middle
       └── ...
 ├── public
 ├── static
-├── themes
-```
-
----
-#Edit the navigation bar
-
-
-
-```r
-.
-├── archetypes
-*├── config
-    └── .default
-      └── menus.toml
-├── config.toml
-├── content
-├── public
-├── static
-├── themes
-```
-
----
-class: inverse, center, middle
-
-#Create a new post
-
----
-#New post
-
---
-- Console
-
-
-```r
-blogdown::new_post()
-```
---
-- From the `R` menu: `Addins -&gt; New Post`
-
-
----
-class: inverse, center, middle
-
-#Feel free to edit your site !
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"includes": null,
-"in_header": "header.html"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
-
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();</script>
-
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
-
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+├── themes</code></pre>
+<p>class: inverse, center, middle</p>
+</div>
+</div>
+<div id="create-a-new-post" class="section level1">
+<h1>Create a new post</h1>
+<p>class: inverse, center, middle</p>
+</div>
+<div id="feel-free-to-edit-your-site" class="section level1">
+<h1>Feel free to edit your site !</h1>
+</div>
