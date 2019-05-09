@@ -46,7 +46,7 @@ output:
 
   * [**blogdown**: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) 
   * [Up and running with **blogdown**](https://alison.rbind.io/post/up-and-running-with-blogdown/) 
-  * [Starting **blogdown**](https://djnavarro.net/post/2018-04-27-starting-blogdown/)
+  * [Starting **blogdown**](https://djnavarro.net/post/starting-blogdown/)
   * [Building pages with the Academic theme](https://sourcethemes.com/academic/docs/page-builder/)
   * [Happy Git and GitHub for the useR](https://happygitwithr.com/push-pull-github.html#push-pull-github)
 
