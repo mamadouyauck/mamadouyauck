@@ -185,6 +185,190 @@ Feel free to edit other elements of the `config.toml` file ! For more details on
 
 ---
 
+class: inverse, center, middle
+
+# Explore your new site
+
+---
+#Hugo directory structure
+
+```{r}
+.
+├── archetypes
+├── config
+├── config.toml
+├── content
+├── public
+├── static
+├── themes
+```
+
+---
+#Hugo directory structure
+
+```{r}
+.
+├── archetypes
+{{├── config}}
+├── config.toml
+├── content
+├── public
+├── static
+├── themes
+```
+
+---
+#Hugo directory structure
+
+```{r}
+.
+├── archetypes
+├── config
+{{├── config.toml}}
+├── content
+├── public
+├── static
+├── themes
+```
+---
+#Hugo directory structure
+
+```{r}
+.
+├── archetypes
+├── config
+├── config.toml
+{{├── content}}
+    └── author
+    └── home
+    └── post
+├── public
+├── static
+├── themes
+```
+
+---
+#Hugo directory structure
+
+```{r}
+.
+├── archetypes
+├── config
+├── config.toml
+├── content
+├── public
+{{├── static}}
+    └── img
+├── themes
+```
+
+---
+
+#Serve your site (locally)
+
+--
+
+- Console
+
+```{r}
+blogdown::serve_site()
+```
+
+--
+
+- [The RStudio Addin `Serve Site`](https://rstudio.github.io/rstudioaddins/)
+
+---
+class: inverse, center, middle
+
+#Edit your new site
+
+For more details, see [Academic's page builder](https://sourcethemes.com/academic/docs/page-builder/)
+
+---
+class: inverse, center, middle
+
+#Edit your new site
+##Edit your home page
+
+---
+##Change your bio
+
+```{r}
+.
+├── archetypes
+├── config
+├── config.toml
+{{├── content}}
+    └── author
+      └── admin
+        └── index.md
+├── public
+├── static
+├── themes
+```
+
+
+---
+##Update your CV
+
+```{r}
+.
+├── archetypes
+├── config
+├── config.toml
+{{├── content}}
+    └── home
+      └── accomplishments.md
+      └── experience.md
+      └── skills.md
+      └── ...
+├── public
+├── static
+├── themes
+```
+
+---
+#Edit the navigation bar
+
+
+```{r}
+.
+├── archetypes
+{{├── config}}
+    └── .default
+      └── menus.toml
+├── config.toml
+├── content
+├── public
+├── static
+├── themes
+```
+
+---
+class: inverse, center, middle
+
+#Create a new post
+
+---
+#New post
+
+--
+- Console
+
+```{r}
+blogdown::new_post()
+```
+--
+- From the `R` menu: `Addins -> New Post`
+
+---
+
+class: inverse, center, middle
+
+# Deploy your new site
+
+---
 #Deploy your site in Netlify
 
 ![](blogdown-signpost-5.png)

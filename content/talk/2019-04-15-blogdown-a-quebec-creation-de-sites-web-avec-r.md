@@ -21,11 +21,9 @@ links:
 - name: Github
   url: https://github.com/mamadouyauck/mamadouyauck
 
-- name: Slides-Part 1
+- name: Slides
   url: /slides/r_a_quebec.pdf
   
-- name: Slides-Part 2
-  url: /slides/build_page_content.pdf
 
 ---
 {{< figure src="/img/logo_r_a_quebec_2019.png" >}}
