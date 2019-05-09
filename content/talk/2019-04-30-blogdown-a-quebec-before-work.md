@@ -6,6 +6,7 @@ date_end: "2019-05-13T17:00:00Z"
 event: R à Québec
 event_url: http://raquebec.ulaval.ca/2019/
 slug: blogdown-a-quebec-before-work
+publishDate: "2017-01-01T00:00:00Z"
 categories:
   - R
 tags:

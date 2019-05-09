@@ -14,6 +14,7 @@ image:
   focal_point: Right
 location: Québec, Canada
 math: true
+publishDate: "2017-01-01T00:00:00Z"
 summary: Cet atelier présente une approche simple et pratique de conception et de déploiement d’un site web ou d’un blog avec R.
 Abstract: Cet atelier présente une approche simple et pratique de conception et de déploiement d’un site web ou d’un blog avec R. De façon spécifique, il montre comment se combinent la puissance de RStudio, du package Blogdown, de la plateforme de thèmes HUGO, du réseau social GitHub et de la plateforme de déploiement Netlify pour créer et déployer un blog ou un site web.
 links:
