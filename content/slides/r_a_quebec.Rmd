@@ -20,9 +20,19 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(tidy = FALSE, eval = FALSE)
 ```
 
+#Étapes de la présentation
 
 
+- **Créer** un compte [GitHub](https://github.com/);<br> <br>
+- **Établir** la *communication* entre une session [Rstudio](https://www.rstudio.com/) et un répertoire `GitHub`;<br><br>
+- **Transférer** les documents d’un projet `RStudio` dans un répertoire `GitHub`;<br><br>
+- **Créer** un projet [BlogDown](https://bookdown.org/yihui/blogdown/) avec `RStudio` et le *connecter* à un répertoire `GitHub`;<br><br>
+- **Charger** un *thème* de la plateforme [HUGO](https://themes.gohugo.io/) avec `Blogdown`;<br><br>
+- **Créer** un compte sur [Netlify](https://www.netlify.com/);<br><br>
+- **Établir** le *lien* entre un compte `GitHub` et un compte `Netlify`;<br><br>
+- **Déployer** un site web développé sous `RStudio` à partir d’un répertoire `GitHub`.
 
+---
 
 #GitHub
 
