@@ -1,8 +1,8 @@
 ---
 title: 'Blogdown à Québec: Création de sites web avec R '
 author: Mamadou Yauck
-date: "2019-05-13T08:30:00-04:00"
-date_end: "2019-05-13T17:00:00-04:00"
+date: "2019-05-13T08:30:00Z"
+date_end: "2019-05-13T17:00:00Z"
 event: R à Québec
 event_url: http://raquebec.ulaval.ca/2019/
 slug: blogdown-a-quebec-creation-de-sites-web-avec-r
