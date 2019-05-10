@@ -14,7 +14,7 @@ tags:
   - Blogdown
 image:
   caption: ''
-  focal_point: ''
+  focal_point: 
 output:
     toc: true
     number_sections: true

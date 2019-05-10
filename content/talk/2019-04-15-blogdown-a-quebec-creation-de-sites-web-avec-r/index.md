@@ -11,7 +11,7 @@ categories:
 tags: []
 image: 
   caption: ''
-  focal_point: Right
+  focal_point: 
 location: Québec, Canada
 math: true
 publishDate: "2017-01-01T00:00:00Z"
@@ -26,7 +26,6 @@ links:
   
 
 ---
-{{< figure src="/img/logo_r_a_quebec_2019.png" >}}
 
 {{% alert note %}}
 Cliquer sur **Slides** pour visualiser les slides de l'atelier.
