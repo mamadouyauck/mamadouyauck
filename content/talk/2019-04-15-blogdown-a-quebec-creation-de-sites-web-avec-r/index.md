@@ -24,7 +24,8 @@ links:
 - name: Slides
   url: /slides/r_a_quebec.pdf
   
-
+- name: R codes
+  url: /talk/2019-04-15-blogdown-a-quebec-creation-de-sites-web-avec-r/blogdown-a-Quebec-2019
 ---
 
 {{% alert note %}}
