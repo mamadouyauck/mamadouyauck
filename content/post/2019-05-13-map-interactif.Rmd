@@ -1,0 +1,21 @@
+---
+title: Map interactif
+author: Mamadou Yauck
+date: '2019-05-13'
+slug: map-interactif
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+```{r}
+library(leaflet)
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852,
+    popup="The birthplace of R")
+m  # Print the map
+```
+
