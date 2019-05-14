@@ -17,7 +17,7 @@ email: "yauckmamadou@gmail.com"
 interests:
 - Causal Inference
 - Capture-Recapture
-- Machine Learning
+- Longitudinal Data Analysis
 name: Mamadou Yauck
 organizations:
 - name: McGill University
