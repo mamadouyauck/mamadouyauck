@@ -17,12 +17,13 @@ email: "yauckmamadou@gmail.com"
 interests:
 - Causal Inference
 - Capture-Recapture
-- Longitudinal Data Analysis
+- Respondent-Driven Sampling
+- Network Data Analysis
 name: Mamadou Yauck
 organizations:
 - name: McGill University
   url: "https://www.mcgill.ca/"
-role: Postdoctoral Researcher
+role: Postdoctoral Research Associate
 social:
 - icon: envelope
   icon_pack: fas
