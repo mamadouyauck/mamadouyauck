@@ -51,8 +51,8 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yauckmamadou@gmail.com"
-phone = "(418) 656 2131"
-address = "Pavillon Alexandre Vachon, Université Laval"
+phone = "514-398-6258"
+address = "1020 Avenue des Pins, Montréal, QC H3A 1A2"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Monday-Thursday 09:00 to 17:00<br>
