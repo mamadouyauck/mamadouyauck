@@ -28,7 +28,7 @@ Improving the contact tracing strategy is crucial for preventing further spread 
 
 ## References
 
-[1] ANSD. Rapport d´efinitif rgphae, 2013.
+[1] ANSD. Rapport définitif RGPHAE, 2013.
 
 [2] Ka Daye Badiane Seydou Boubakar Sarr Samba Cor Talla Idrissa Ndiaye El Hadj Mamadou
 Ba Ibrahima Oumar Ndour Cheikh Tidiane Ly Mamadou Selly Diop Cheikh Tacko Diack
@@ -36,10 +36,10 @@ Papa Amadou Loume Mandiaye Diouf Mbaye Coll-Seck Awa Marie Bousso Abdoulaye,
 Seydi Moussa. Experience on the management of the first imported ebola virus disease case
 in Senegal. The Pan African Medical Journal, (22(Supp 1):6):193–206, 2015.
 
-[3] Centre des Operations d’Urgence Sanitaire. Protocoles opérationnels normalisés ebola, 2015.
+[3] Centre des Opérations d’Urgence Sanitaire. Protocoles opérationnels normalisés Ebola, 2015. http://www.cousenegal.sn/wp-content/uploads/2016/07/PON-EBOLA-ONLINE.pdf
 
-[4] Centre des Operations d’Urgence Sanitaire. Riposte `a l’´epid´emie du nouveau coronavirus – covid-19, 2020.
+[4] Centre des Opérations d’Urgence Sanitaire. Riposte à l’épidémie du nouveau coronavirus – Covid-19, 2020. http://www.sante.gouv.sn/sites/default/files/sitrep4mars.pdf
 
-[5] Centre des Operations d’Urgence Sanitaire. Riposte `a l’´epid´emie du nouveau coronavirus – covid-19, 2020.
+[5] Centre des Opérations d’Urgence Sanitaire. Riposte à l’épidémie du nouveau coronavirus – Covid-19, 2020. http://www.sante.gouv.sn/activites/sitrep-18-coronavirus-riposte-%C3%A0-l%C3%A9pid%C3%A9mie-du-nouveau-coronavirus-covid-19-s%C3%A9n%C3%A9gal-rapport
 
-[6] Centers for Disease Prevention and Control. Digital contact tracing tools for covid-19, 2020.
+[6] Centers for Disease Prevention and Control. Digital contact tracing tools for Covid-19, 2020.
