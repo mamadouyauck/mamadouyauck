@@ -18,12 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Postdoctoral Research Associate"
+  company = "McGill University"
+  company_url = "https://www.mcgill.ca/epi-biostat-occh/"
+  location = "Montréal, Québec, Canada"
+  date_start = "2019-06-01"
+  date_end = ""
+  """
+  
+[[experience]]
   title = "Supervisor"
   company = "Centre de dépannage et d'apprentissage en mathématiques et statistique"
   company_url = "https://www.mat.ulaval.ca/services/cda-centre-de-depannage-et-dapprentissage-en-mathematiques/"
   location = "Québec, Canada"
   date_start = "2019-01-01"
-  date_end = ""
+  date_end = "2019-05-30"
   description = """
   Responsibilities include:
   
@@ -33,9 +42,9 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Teacher"
+  title = "Lecturer"
   company = "Université Laval"
-  company_url = ""
+  company_url = "https://www.mat.ulaval.ca/accueil/"
   location = "Québec, Canada"
   date_start = "2018-01-01"
   date_end = "2018-05-31"
