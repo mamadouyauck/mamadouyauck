@@ -36,7 +36,7 @@ Papa Amadou Loume Mandiaye Diouf Mbaye Coll-Seck Awa Marie Bousso Abdoulaye,
 Seydi Moussa. Experience on the management of the first imported ebola virus disease case
 in Senegal. The Pan African Medical Journal, (22(Supp 1):6):193–206, 2015.
 
-[3] Centre des Operations d’Urgence Sanitaire. Protocoles op´erationnels normalis´es ebola, 2015.
+[3] Centre des Operations d’Urgence Sanitaire. Protocoles opérationnels normalisés ebola, 2015.
 
 [4] Centre des Operations d’Urgence Sanitaire. Riposte `a l’´epid´emie du nouveau coronavirus – covid-19, 2020.
 
