@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Montréal, Québec, Canada"
   date_start = "2019-06-01"
   date_end = ""
-  """
+  
   
 [[experience]]
   title = "Supervisor"
