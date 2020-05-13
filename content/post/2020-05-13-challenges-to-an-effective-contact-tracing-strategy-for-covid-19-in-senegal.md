@@ -30,9 +30,9 @@ Improving the contact tracing strategy is crucial for preventing further spread 
 
 [1] ANSD. Rapport définitif RGPHAE, 2013.
 
-[2] Ka Daye Badiane Seydou Boubakar Sarr Samba Cor Talla Idrissa Ndiaye El Hadj Mamadou
-Ba Ibrahima Oumar Ndour Cheikh Tidiane Ly Mamadou Selly Diop Cheikh Tacko Diack
-Papa Amadou Loume Mandiaye Diouf Mbaye Coll-Seck Awa Marie Bousso Abdoulaye,
+[2] Ka Daye Badiane, Seydou Boubakar Sarr, Samba Cor Talla, Idrissa Ndiaye, El Hadj Mamadou
+Ba, Ibrahima Oumar Ndour, Cheikh Tidiane Ly, Mamadou Selly Diop, Cheikh Tacko Diack,
+Papa Amadou Loume, Mandiaye Diouf Mbaye, Coll-Seck Awa Marie, Bousso Abdoulaye,
 Seydi Moussa. Experience on the management of the first imported ebola virus disease case
 in Senegal. The Pan African Medical Journal, (22(Supp 1):6):193–206, 2015.
 
