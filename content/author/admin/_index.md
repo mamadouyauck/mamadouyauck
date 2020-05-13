@@ -49,4 +49,4 @@ user_groups:
 - Visitors
 ---
 
-Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Researcher at McGill University/Universiy of North Carolina. He holds a PhD in Statistics from Université Laval.His research areas are causal inference, capture-recapture methods and longitudinal data analysis.
+Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Research Associate at McGill University and at the Universiy of North Carolina at Chapel Hill. He holds a PhD in Statistics from Université Laval.
