@@ -21,8 +21,9 @@ image:
 ---
 
 {{% alert note %}}
-**Programme**
+**Les concepts abordés dans ces cours font appel à des connaissances de base en mathématique/statistique et en programmation (avec le langage R). **
 {{% /alert %}}
+
 
 | **22 septembre** 	|  **8h30 - 10h30**       	|  **Cours I: Social Network Analysis**             	|
 |------------------	|-------------------------	|---------------------------------------------------	|
