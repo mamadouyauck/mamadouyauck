@@ -6,6 +6,7 @@ date_end: "2020-09-24T16:30:00Z"
 event: Inscription
 event_url: https://docs.google.com/forms/d/e/1FAIpQLSdUZ21inB_jhlLie1XyzYNc2hPOS-HSfoXUCYPmcKEDSgwtYw/viewform?usp=pp_url
 slug: ecole-d-automne-en-statistique-2020
+publishDate: "2017-01-01T00:00:00Z"
 categories:
   - R
 tags:
