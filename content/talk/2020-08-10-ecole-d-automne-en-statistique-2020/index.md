@@ -7,6 +7,7 @@ event: Inscription
 event_url: https://docs.google.com/forms/d/e/1FAIpQLSdUZ21inB_jhlLie1XyzYNc2hPOS-HSfoXUCYPmcKEDSgwtYw/viewform?usp=pp_url
 slug: ecole-d-automne-en-statistique-2020
 publishDate: "2017-01-01T00:00:00Z"
+
 categories:
   - R
 tags:
@@ -35,9 +36,8 @@ image:
 |                  	|     11h00 – 13h00       	|     Suite Cours II                                	|
 |                  	|     13h00 – 14h30       	|     Pause                                         	|
 |                  	|     14h30 – 16h30       	|     Suite et fin Cours   II                       	|
-|                  	|                         	|                                                   	|
-|                  	|                         	|                                                   	|
-| **24 septembre** 	|     **8h30 – 10h30**    	|     **Cours III: Creating websites with R**       	|
+|                  	|                         	|                                                   	|                                               
+| **24 septembre** 	|     **8h30 – 10h30**    	|     **Cours III: Creating websites with R**   |
 |                  	|     10h30 – 11h00       	|     Pause                                         	|
 |                  	|     11h00 – 13h00       	|     Suite Cours III                               	|
 |                  	|     13h00 – 14h30       	|     Pause                                         	|
