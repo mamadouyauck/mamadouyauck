@@ -3,7 +3,7 @@ title: Ecole d'automne en statistique 2020
 author: Mamadou Yauck
 date: "2020-09-22T08:30:00Z"
 date_end: "2020-09-24T16:30:00Z"
-Inscription: [École d'automne en statistique](https://docs.google.com/forms/d/e/1FAIpQLSdUZ21inB_jhlLie1XyzYNc2hPOS-HSfoXUCYPmcKEDSgwtYw/viewform?usp=pp_url)
+Event: [École d'automne en statistique](https://docs.google.com/forms/d/e/1FAIpQLSdUZ21inB_jhlLie1XyzYNc2hPOS-HSfoXUCYPmcKEDSgwtYw/viewform?usp=pp_url)
 slug: ecole-d-automne-en-statistique-2020
 categories:
   - R
