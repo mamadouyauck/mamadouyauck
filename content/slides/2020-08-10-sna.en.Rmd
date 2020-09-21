@@ -258,3 +258,15 @@ $$
 $$
 where $f_{ij}$ is the fraction of edges linking a node of category $i$ to a node of category $j$, $f_{i.}$ is the fraction of edges originating from a node of category $i$, $f_{.i}$ is the fraction of edges terminating in a node of category $i$. This measure ranges from $-1$ (heterophily) to $1$ (homophily).
 
+---
+
+class: inverse, center, middle
+
+
+##Contact me
+
+[Personal website](https://mamadouyauck.rbind.io/)<br>
+[GitHub repository](https://github.com/mamadouyauck/mamadouyauck)<br>
+[Twitter page](https://twitter.com/YauckM)
+
+
