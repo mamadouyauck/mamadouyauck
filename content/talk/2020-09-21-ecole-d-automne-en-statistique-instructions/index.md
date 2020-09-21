@@ -3,7 +3,7 @@ title: 'Ecole d''automne en statistique: instructions'
 author: Mamadou Yauck
 date: "2020-09-22T10:30:00Z"
 date_end: "2020-09-22T16:30:00Z"
-event: R à Québec
+event: École d'automne en statistique
 event_url: https://mamadouyauck.rbind.io/talk/2020-08-10-ecole-d-automne-en-statistique-2020/ecole-d-automne-en-statistique-2020/
 slug: ecole-d-automne-en-statistique-instructions
 publishDate: "2017-01-01T00:00:00Z"
