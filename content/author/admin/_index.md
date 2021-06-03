@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include causal inference, capture-recapture methods and network data analysis.
+bio: My research interests include respondent-driven sampling, capture-recapture methods, causal inference and statistical network data analysis.
 education:
   courses:
   - course: PhD in Statistics
@@ -13,17 +13,17 @@ education:
   - course: BSc in Mathematics/Statistics
     institution: Ecole Nationale de la Statistique et de l'Analyse Economique
     year: 2014
-email: "yauckmamadou@gmail.com"
+email: "yauck.mamadou@uqam.ca"
 interests:
-- Causal Inference
 - Capture-Recapture
 - Respondent-Driven Sampling
 - Network Data Analysis
+- Causal Inference
 name: Mamadou Yauck
 organizations:
-- name: McGill University
-  url: "https://www.mcgill.ca/"
-role: Postdoctoral Research Associate
+- name: Université du Québec à Montréal
+  url: "https://math.uqam.ca/"
+role: Assistant Professor
 social:
 - icon: envelope
   icon_pack: fas
@@ -49,4 +49,4 @@ user_groups:
 - Visitors
 ---
 
-Mamadou Yauck is a CANSSI-SAMSI (Canadian Statistical Sciences Institute - Statistical and Applied Mathematical Sciences Institute) Postdoctoral Research Associate at McGill University and at the Universiy of North Carolina at Chapel Hill. He holds a PhD in Statistics from Université Laval.
+Mamadou Yauck is an Assistant Professor of Statistics at Université du Québec à Montréal (UQAM). He holds a PhD in Statistics from Université Laval.
