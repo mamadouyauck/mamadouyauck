@@ -33,7 +33,7 @@ social:
   link: https://twitter.com/YauckM
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/mamadou-yauck-ph-d-a878956a/
+  link: https://www.linkedin.com/in/mamadou-yauck-a878956a/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?user=TXfJxukAAAAJ&hl=en
