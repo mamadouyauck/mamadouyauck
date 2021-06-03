@@ -48,7 +48,7 @@ time_format = "3:04 PM"
 ############################
 ## Contact Widget setup   ##
 ############################
-
+email_form = 0
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yauck.mamadou@uqam.ca"
 phone = "(514) 987-3000 poste []"
