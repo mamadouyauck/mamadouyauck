@@ -1,5 +1,6 @@
 # for example, create a new site with the academic theme
 library(blogdown)
+blogdown::install_hugo()
 blogdown::new_site(theme = "gcushen/hugo-academic", theme_example = TRUE)
 install.packages("usethis")
 library(usethis)
