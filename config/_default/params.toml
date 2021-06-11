@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yauck.mamadou@uqam.ca"
 phone = "(514) 987-3000 poste 8325"
-address = "Département de mathématiques<br> Local PK-5525 201<br> Avenue du Président-Kennedy<br> Montréal (Québec) H2X 3Y7"
+address = "Département de mathématiques<br> Local PK-5525<br> 201 Avenue du Président-Kennedy<br> Montréal (Québec) H2X 3Y7"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 #office_hours = ""Monday-Thursday 09:00 to 17:00<br>
