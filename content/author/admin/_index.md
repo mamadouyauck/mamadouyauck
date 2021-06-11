@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include respondent-driven sampling, capture-recapture methods, causal inference and statistical network data analysis.
+bio: My research interests include respondent-driven sampling, capture-recapture methods, statistical network data analysis, causal inference and computational statistics.
 education:
   courses:
   - course: PhD in Statistics
@@ -19,6 +19,7 @@ interests:
 - Respondent-Driven Sampling
 - Network Data Analysis
 - Causal Inference
+- Computational Statistics
 name: Mamadou Yauck
 organizations:
 - name: Université du Québec à Montréal
