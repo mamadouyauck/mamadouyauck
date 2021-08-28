@@ -26,8 +26,8 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Shiny App"
-    tag = "Shiny App"
+    name = "Shiny app"
+    tag = "Shiny app"
     
   [[content.filter_button]]
     name = "R package"

@@ -6,6 +6,6 @@ image:
   focal_point: Smart
 summary: A visualization tool for respondent-driven sampling.
 tags:
-- Shiny App
-title: RDS Shiny App
+- Shiny app
+title: RDS Shiny app
 ---
