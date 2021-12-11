@@ -1,0 +1,91 @@
+---
+title: "Blogdown: build your homepage and create content"
+subtitle: "R à Québec Workshop"
+author: "Mamadou Yauck & Sergio Ewane Ebouele"
+date: "2019-05-13"
+output:
+  xaringan::moon_reader:
+    css: ["default-fonts","default","rladies-fonts", "rladies"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      includes:
+      in_header: header.html
+---
+
+
+
+<p>class: inverse, center, middle</p>
+<div id="explore-your-new-site" class="section level1">
+<h1>Explore your new site</h1>
+</div>
+<div id="hugo-directory-structure" class="section level1">
+<h1>Hugo directory structure</h1>
+<pre class="r"><code>.
+├── archetypes
+{{├── config}}
+├── config.toml
+├── content
+├── public
+├── static
+├── themes</code></pre>
+</div>
+<div id="hugo-directory-structure-1" class="section level1">
+<h1>Hugo directory structure</h1>
+<pre class="r"><code>.
+├── archetypes
+├── config
+├── config.toml
+{{├── content}}
+    └── author
+    └── home
+    └── post
+├── public
+├── static
+├── themes</code></pre>
+</div>
+<div id="serve-your-site-locally" class="section level1">
+<h1>Serve your site (locally)</h1>
+<p>–</p>
+<ul>
+<li>Console</li>
+</ul>
+<pre class="r"><code>blogdown::serve_site()</code></pre>
+<p>–</p>
+<ul>
+<li><a href="https://rstudio.github.io/rstudioaddins/">The RStudio Addin <code>Serve Site</code></a></li>
+</ul>
+<p>class: inverse, center, middle</p>
+</div>
+<div id="edit-your-new-site" class="section level1">
+<h1>Edit your new site</h1>
+<div id="edit-your-home-page" class="section level2">
+<h2>Edit your home page</h2>
+</div>
+<div id="update-your-cv" class="section level2">
+<h2>Update your CV</h2>
+<pre class="r"><code>.
+├── archetypes
+├── config
+├── config.toml
+{{├── content}}
+    └── home
+      └── accomplishments.md
+      └── experience.md
+      └── skills.md
+      └── ...
+├── public
+├── static
+├── themes</code></pre>
+<p>class: inverse, center, middle</p>
+</div>
+</div>
+<div id="create-a-new-post" class="section level1">
+<h1>Create a new post</h1>
+<p>class: inverse, center, middle</p>
+</div>
+<div id="feel-free-to-edit-your-site" class="section level1">
+<h1>Feel free to edit your site !</h1>
+</div>

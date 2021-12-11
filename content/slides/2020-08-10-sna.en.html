@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Social Network Analysis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Mamadou Yauck" />
+    <meta name="date" content="2020-09-19" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Social Network Analysis
+## École d’automne en statistique
+### Mamadou Yauck
+### 2020-09-19
+
+---
+
+
+
+# The 'six degrees separation' theory
+
+--
+
+- The theory states that everyone and everything is six or fewer steps
+away, by way of introduction, from any other person in the world.
+
+--
+
+- 'Small world' phenomenon
+
+--
+
+- Facebook, Twitter
+
+---
+
+# (Social) Network Analysis
+
+--
+
+- (Social or Statistical) Network analysis (SNA) is a fairly recent area of research in statistics: at the crossroad of graph theory, computer science, sociology, etc. The roots of sNA is (usually) credited to [Jacob Moreno (1930)](http://www.uky.edu/~rremer/sociometry/Sociometry.pdf).
+
+--
+
+- SNA can be defined as a set of methods that help explore and analyse network data (e.g. people, genes, countries, etc.). 
+
+---
+
+#Outline
+
+--
+
+1. Terminology and notation
+
+--
+
+1. Managing Data (read in and import network data) 
+
+--
+
+1. visualization
+
+--
+
+1. summarizing network and network-related variable attributes
+
+--
+
+1. statistical modeling of networks
+
+--
+
+- We choose to use the `R` (statistical software) language for the following reasons: flexibility, excellent visualizations, variety of ready-to-use methods.
+
+---
+class: inverse, center, middle
+
+#Terminology &amp; Notation
+
+---
+
+#Terminology
+
+--
+
+The foundation of network analysis is the graph. Graphs are made up of two sets: a set of nodes/actors/vertices and a set of connections/links/ties/edges between those nodes.
+
+--
+
+**Definition:** A graph is a structure `\(G=(V,E)\)`, where `\(V\)` is the set of vertices or nodes, and `\(E\)` is the set of edges, links or social ties.
+
+--
+
+- The number of vertices/nodes, `\(|V|\)`, is known as the order of the graph `\(G\)`, while the number of edges, `\(|E|\)` is the size of the graph.
+
+--
+
+- An edge is represented by a pair of distincts vertices `\(u, v \in V\)` and is denoted `\(\{u, v\} \in E\)`.
+
+--
+
+- (Network) Edges can be `\({\bf directed}\)` or `\({\bf undirected}\)`. If an edge represented by `\(u \in V\)` and `\(v \in V\)` is directed, then `\(\{u, v\} \in E\)` and `\(\{v, u\} \in E\)`.
+
+--
+
+
+`\begin{tikzpicture}
+\draw (0,0) circle (2cm);
+\end{tikzpicture}`
+
+---
+
+#Notation
+
+--
+
+Network data can be represented in a number of different ways in practice. 
+
+--
+
+**Example:** Consider the network formed by Ousmane (O), Sophie (S), Arame (A), Doudou (D) and Khadim (K). O declares friendship with D; D declares friendship with O; A declares friendship with O, D and K; K declares friendship with O and A; S declares friendship with K.
+
+--
+
+- We can give a list of paired node names that represent edges which define the network: `\(\{O, D\}\)`, `\(\{D, O\}\)`, `\(\{A, O\}\)`, `\(\{A, D\}\)`, `\(\{A, K\}\)`, `\(\{K, O\}\)`, `\(\{K, A\}\)`, `\(\{S, K\}\)`.
+
+
+
+--
+
+- Or we can give a list of the node names `\(V=\{O, S, A, D, K\}\)` and a square binary matrix (often known as a sociomatrix or adjacency matrix). Let `\({\bf X}=(X_{ij})_{i,j}\)` be a matrix of social ties such that `\(X_{ij}=1\)` if an edge from the `\(ith\)` to the `\(jth\)` node is present, `\(X_{ij}=0\)` otherwise, and `\(\mbox{diag}({\bf X})={\bf 0}\)`. In our example, the `\(5 \times 5\)` sociomatrix is:
+
+$$
+{\bf X}=\begin{bmatrix}
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0\\\\
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\\\
+1 &amp; 1 &amp; 0 &amp; 1 &amp; 0\\\\
+0 &amp; 1 &amp; 1 &amp; 0 &amp; 0\\\\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 0
+\end{bmatrix}.
+$$
+
+---
+class: inverse, center, middle
+
+#Managing network data in R
+
+---
+class: inverse, center, middle
+
+#Network visualization
+
+---
+class: inverse, center, middle
+
+#Network summarization
+
+---
+
+#Network-level summaries
+
+--
+
+**Definition:** The density of a graph is the ratio of its observed number of edges to its theoretical maximum. The density of a directed graph `\(G\)` of sociomatrix `\(\bf X\)` is:
+
+$$
+`\begin{equation}
+\mathcal{D}(G)=\frac{\sum_{i=1}^n\sum_{j=1}^n X_{ij}}{n\times(n-1)}.
+\end{equation}`
+$$
+
+--
+
+**Definition:** In a directed graph `\(G=(V,E)\)`, a tie between vertices `\(u, v \in V\)` is reciprocated if `\(\{u, v\} \in E\)` and `\(\{v, u\} \in E\)`. The proportion of times a tie is reciprocated in `\(G\)` or its reciprocity is:
+
+$$
+`\begin{equation}
+\mathcal{R}(G)=\frac{\sum_{i\neq j, i&lt;j}1[X_{ij}=X{ji}]}{\sum_{i\neq j, i&lt;j}1[X_{ij}+X{ji}&gt;0]}.
+\end{equation}`
+$$
+
+--
+
+**Definition:** A clique is a sub-group of nodes in the graph that are maximally connected (e.g. a subgraph of density 1).
+
+--
+
+**Definition:** A community is a sub-group of nodes that are strongly connected (or cohesive) within but only weakly connected outside of the sub-group. 
+
+`\(\it{Modularity}\)` is one metric of covariate/grouping-based clustering.This metric ranges between -0.5 and 1, with larger values meaning stronger clustering.
+
+---
+
+#Node-level summaries
+
+--
+
+**Definition:** The `\(\it{degree}\)` of a node is the number of edges connected to that node.
+
+--
+
+For an undirected graph, the degree of a node `\(i\)` is:
+
+$$
+`\begin{equation}
+d_i=\sum_{j=1}^n X_{ij}.
+\end{equation}`
+$$
+
+--
+
+For a directed graph, we define `\(\it{in-degree}\)` and `\(\it{out-degree}\)` as follows.
+
+--
+
+**Definition:** The `\(\it{in-degree}\)` of a node is the number of edges leading into that node.
+
+$$
+`\begin{equation}
+d_i^{in}=\sum_{j=1}^n X_{ji}.
+\end{equation}`
+$$
+
+**Definition:** The `\(\it{out-degree}\)` of a node is the number of edges originating from that node.
+
+$$
+`\begin{equation}
+d_i^{out}=\sum_{j=1}^n X_{ij}.
+\end{equation}`
+$$
+---
+
+#Edge-level summaries
+
+--
+
+**Definition:** A `\(\it{bridge}\)` (or articulation point) is an edge that when removed will increase the number of connected components in the graph.
+
+--
+
+**Definition:** `\(\it{Homophily}\)` is the tendency for nodes with similar attributes to share ties.
+
+--
+
+The metric for homophily is the `\(\it{assortativity}\)` coefficient of Newman:
+
+$$
+`\begin{equation}
+\frac{\sum_{i}f_{ii}-\sum_i f_{i.}f_{.i}}{1-\sum_i f_{i.}f_{.i}},
+\end{equation}`
+$$
+where `\(f_{ij}\)` is the fraction of edges linking a node of category `\(i\)` to a node of category `\(j\)`, `\(f_{i.}\)` is the fraction of edges originating from a node of category `\(i\)`, `\(f_{.i}\)` is the fraction of edges terminating in a node of category `\(i\)`. This measure ranges from `\(-1\)` (heterophily) to `\(1\)` (homophily).
+
+---
+
+class: inverse, center, middle
+
+
+##Contact me
+
+[Personal website](https://mamadouyauck.rbind.io/)&lt;br&gt;
+[GitHub repository](https://github.com/mamadouyauck/mamadouyauck)&lt;br&gt;
+[Twitter page](https://twitter.com/YauckM)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"includes": null,
+"in_header": "header.html"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
