@@ -50,4 +50,6 @@ user_groups:
 - Visitors
 ---
 
-Mamadou Yauck is an Assistant Professor of Statistics at Université du Québec à Montréal (UQAM). He holds a PhD in Statistics from Université Laval.
+Bienvenue sur la page personnelle de Mamadou Yauck! Je suis Professeur adjoint au département de mathématiques de l'Université du Québec à Montréal.
+
+Si vous souhaitez en savoir plus sur ma recherche, ou entamer une collaboration, veuillez me contacter à l'adresse yauck.mamadou@uqam.ca
