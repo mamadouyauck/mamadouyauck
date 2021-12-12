@@ -11,7 +11,7 @@
 
 [[main]]
   name = "Publications"
-  url = "#peerev"
+  url = "/pub/2021-06-07-peer-reviewed/"
   weight = 20
 
 [[main]]
