@@ -2,19 +2,19 @@
 authors:
 - admin
 bio: My research interests include respondent-driven sampling, capture-recapture methods, statistical network data analysis, causal inference and computational statistics.
-education:
+éducation:
   courses:
-  - course: PhD in Statistics
+  - course: Doctorat en statistique
     institution: Université Laval
     year: 2019
-  - course: MSc in Statistics
+  - course: Maîtrise en statistique
     institution: Université Laval
     year: 2015
-  - course: BSc in Mathematics/Statistics
-    institution: Ecole Nationale de la Statistique et de l'Analyse Economique
+  - course: Baccalauréat en mathématiques, concentration statistique
+    institution: École Nationale de la Statistique et de l'Analyse Économique
     year: 2014
 email: "yauck.mamadou@uqam.ca"
-interests:
+intérêts:
 - Capture-Recapture
 - Respondent-Driven Sampling
 - Network Data Analysis
@@ -24,7 +24,7 @@ name: Mamadou Yauck
 organizations:
 - name: Université du Québec à Montréal
   url: "https://math.uqam.ca/"
-role: Assistant Professor
+role: Professeur Adjoint
 social:
 - icon: envelope
   icon_pack: fas
