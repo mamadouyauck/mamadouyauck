@@ -13,11 +13,16 @@
   name = "Publications"
   url = "/pub/2021-06-07-peer-reviewed/"
   weight = 20
+  
+[[main]]
+  name = "Enseignement"
+  url = "/enseignement/2021-12-28-cours/"
+  weight = 30
 
 [[main]]
   name = "Blog"
   url = "#posts"
-  weight = 30
+  weight = 40
 
 
 #[[main]]
