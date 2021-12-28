@@ -14,7 +14,7 @@ output:
     toc_float: true
 ---
 
-# Hiver 2022
+## Hiver 2022
 
   * [Methodes de capture-recapture en grande dimension](https://etudier.uqam.ca/cours?sigle=MAT998M) 
   * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
