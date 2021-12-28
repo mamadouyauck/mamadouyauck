@@ -15,6 +15,7 @@ image:
     * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
 
 
+
 - **Automne 2021**
     * [Analyse Statistique Multivariée](https://etudier.uqam.ca/cours?sigle=MAT8081)
 
