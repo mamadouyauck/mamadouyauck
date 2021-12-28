@@ -10,8 +10,12 @@ image:
   focal_point: ''
 ---
 
-1. **Méthodes de capture-recapture en grande dimension** [Hiver 2022]. 
+- **Hiver 2022**
 
-2. **Statistique I** [Hiver 2022]
+    * [Méthodes de capture-recapture en grande dimension](https://etudier.uqam.ca/cours?sigle=MAT998M)
+    * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
 
-3. **Analyse Statistique Multivariée** [Automne 2021]
+- **Automne 2021**
+
+    *[Analyse Statistique Multivariée](https://etudier.uqam.ca/cours?sigle=MAT8081)
+
