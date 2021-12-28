@@ -16,12 +16,12 @@ output:
 
 # Hiver 2022
 
-    * [Methodes de capture-recapture en grande dimension](https://etudier.uqam.ca/cours?sigle=MAT998M)
-    * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
+  * [Methodes de capture-recapture en grande dimension](https://etudier.uqam.ca/cours?sigle=MAT998M) 
+  * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
 
 
 
 ## Automne 2021
 
-    * [Analyse Statistique Multivariee](https://etudier.uqam.ca/cours?sigle=MAT8081)
+  * [Analyse Statistique Multivariee](https://etudier.uqam.ca/cours?sigle=MAT8081)
 
