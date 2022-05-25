@@ -14,6 +14,13 @@ output:
     toc_float: true
 ---
 
+## Automne 2022
+
+  * [Analyse Statistique Multivariée](https://etudier.uqam.ca/cours?sigle=MAT8081)
+  * [Statistique I](https://etudier.uqam.ca/cours?sigle=STT1000)
+
+
+
 ## Hiver 2022
 
   * [Méthodes de capture-recapture en grande dimension](https://etudier.uqam.ca/cours?sigle=MAT998M) 
