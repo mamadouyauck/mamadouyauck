@@ -50,4 +50,9 @@ user_groups:
 - Visitors
 ---
 
-Bienvenue sur la page personnelle de Mamadou Yauck! Je suis Professeur adjoint au département de mathématiques de l'Université du Québec à Montréal. Vous trouverez, sur cette page, toutes les informations liées à mes activités de recherche et d'enseignement. 
+I am an assistant professor of statistics in the Department of mathematics at Université du Québec à Montréal.
+
+My current research interests include statistical modeling, social networks, computational statistics, algorithms, causal inference and capture-recapture methods. I am particularly interested in the development of theoretical, methodological, and computational tools for the analysis of link-racing sampling data.
+
+I have developed a network of collaborators in public health, epidemiology, road traffic safety, marketing, and sociology.
+
