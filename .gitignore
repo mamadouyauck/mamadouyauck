@@ -5,3 +5,7 @@
 blogdown
 Thumbs.db 
 public/ 
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
