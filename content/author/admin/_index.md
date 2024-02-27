@@ -24,7 +24,7 @@ name: Mamadou Yauck
 organizations:
 - name: Université du Québec à Montréal
   url: "https://math.uqam.ca/"
-role: Professeur Adjoint
+role: Assistant Professor
 social:
 - icon: envelope
   icon_pack: fas
