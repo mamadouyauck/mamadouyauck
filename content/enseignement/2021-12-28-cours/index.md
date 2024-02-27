@@ -1,5 +1,5 @@
 ---
-title: Cours enseignés
+title: Teaching
 author: Mamadou Yauck
 date: '2021-12-28'
 slug: []

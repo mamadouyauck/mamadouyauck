@@ -15,7 +15,7 @@
   weight = 20
   
 [[main]]
-  name = "Enseignement"
+  name = "Teaching"
   url = "/enseignement/2021-12-28-cours/"
   weight = 30
 
