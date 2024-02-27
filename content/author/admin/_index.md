@@ -50,7 +50,7 @@ user_groups:
 - Visitors
 ---
 
-I am an assistant professor of statistics in the Department of mathematics at Université du Québec à Montréal.
+I am an assistant professor of statistics in the Department of mathematics at Université du Québec à Montréal (UQAM).
 
 My current research interests include statistical modeling, social networks, computational statistics, algorithms, causal inference and capture-recapture methods. I am particularly interested in the development of theoretical, methodological, and computational tools for the analysis of link-racing sampling data.
 
