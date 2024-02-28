@@ -7,5 +7,5 @@ image:
 summary: A visualization tool for the Generalized Waring Distribution for capture-recapture
 tags:
 - Shiny app
-title: Shinywaringcapt: The GWD distribution for capture-recapture
+title: Shinywaringcapt
 ---
