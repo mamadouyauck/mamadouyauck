@@ -1,7 +1,7 @@
 ---
 title: Teaching
 author: Mamadou Yauck
-date: '2021-12-28'
+date: '2024-02-27'
 slug: []
 categories: []
 tags: []
