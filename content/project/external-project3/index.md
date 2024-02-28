@@ -1,5 +1,5 @@
 ---
-date: "2016-04-27T00:00:00-04:00"
+date: "2017-04-27T00:00:00-04:00"
 external_link: https://stat-appli.shinyapps.io/
 image:
   caption: Shiny photo
