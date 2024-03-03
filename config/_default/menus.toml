@@ -18,11 +18,16 @@
   name = "Teaching"
   url = "/enseignement/2021-12-28-cours/"
   weight = 30
+  
+[[main]]
+  name = "Mentoring"
+  url = "/trainees/2024-03-02-students/"
+  weight = 40
 
 [[main]]
   name = "Blog"
   url = "#posts"
-  weight = 40
+  weight = 50
 
 
 #[[main]]
