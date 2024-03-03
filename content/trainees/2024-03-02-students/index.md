@@ -13,7 +13,6 @@ output:
     number_sections: true
     toc_float: true
 ---
-
   * *Tassadit Akeb*,	M. Sc. Math. (c. Stat), 2023-
   * *Hamza Djaleb*, M. Sc. Math. (c. Stat), 2023-
   * *Alpha Amadou Diallo*, M. Sc. Math. (c. Stat), 2023-
