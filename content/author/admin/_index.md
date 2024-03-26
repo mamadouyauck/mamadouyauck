@@ -52,7 +52,7 @@ user_groups:
 
 I am an [assistant professor](https://professeurs.uqam.ca/professeur/yauck.mamadou/) of statistics in the [Department of mathematics](https://sciences.uqam.ca/mathematiques/) at [Université du Québec à Montréal (UQAM)](https://uqam.ca/).
 
-My current research interests include statistical modeling, social networks, computational statistics, algorithms, causal inference and capture-recapture methods. I am particularly interested in the development of theoretical, methodological, and computational tools for the analysis of link-racing sampling data.
+My current research interests include statistical modeling, social networks, computational statistics, algorithms, causal inference, and capture-recapture methods. I am particularly interested in the development of theoretical, methodological, and computational tools for the analysis of link-tracing sampling data.
 
 I have developed a network of collaborators in public health, epidemiology, road traffic safety, marketing, and sociology.
 
