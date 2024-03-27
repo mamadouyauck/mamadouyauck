@@ -1,7 +1,7 @@
 ---
 title: Ecole d'été en statistique 2024
 author: Mamadou Yauck
-date: "2024-03-22T10:00:00Z"
+date: "2024-07-7T08:30:00Z"
 date_end: "2024-09-24T16:30:00Z"
 event: Inscription
 event_url: https://docs.google.com/forms/d/1xGCmSuFBhfwlYVTpNWE363mNVHiebc_Hk6KcvcpQv_4/edit
