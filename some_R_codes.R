@@ -5,7 +5,7 @@ blogdown::new_site(theme = "gcushen/hugo-academic", theme_example = TRUE)
 install.packages("usethis")
 library(usethis)
 use_git_config(user.name = "Mamadou Yauck", user.email = "yauckmamadou@gmail.com")
-
+use_git()
 hugo server --buildFuture
 
 install.packages('rmarkdown')
