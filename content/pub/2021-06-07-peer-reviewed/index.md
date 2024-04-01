@@ -11,7 +11,7 @@ image:
 ---
 1. **Yauck, M.**, Moodie, E., Fourmigue, A., Dvorakova, M., Lambert, G., Grace, D. and Cox, J. Estimating hidden population size from a single respondent-driven sampling survey. *Submitted*, [preprint](https://arxiv.org/abs/2403.04564)
 
-2. Rivest L.-P., **Yauck M.** Small sample inference for two-way capture-recapture experiments. *Submitted*, [preprint](https://arxiv.org/abs/2307.11705)
+2. Rivest L.-P., **Yauck M.** Small sample inference for two-way capture-recapture experiments. *Accepted for publication in International Statistical Review*, [preprint](https://arxiv.org/abs/2307.11705)
 
 3. Latimer E, Aubry T, Barrett B, Bergeron-Leclerc C, Briand C, Durbin J, Goscha R, Krupa T, Roebuck M, Vallée C, Setliff A, **Yauck M.** Association between fidelity to the strengths model of case management and client outcomes: A quasi-experimental study. Psychiatr Rehabil J. 2022 May 5. doi: 10.1037/prj0000519. Epub ahead of print. PMID: 35511509.
 
