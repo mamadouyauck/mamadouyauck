@@ -15,7 +15,7 @@ image:
 
 3. Latimer E, Aubry T, Barrett B, Bergeron-Leclerc C, Briand C, Durbin J, Goscha R, Krupa T, Roebuck M, Vallée C, Setliff A, **Yauck M.** Association between fidelity to the strengths model of case management and client outcomes: A quasi-experimental study. Psychiatr Rehabil J. 2022 May 5. doi: 10.1037/prj0000519. Epub ahead of print. PMID: 35511509.
 
-4. **Yauck, M.**, Moodie, E., Apelian, H., Fourmigue, A., Grace, D., Hart, T., Lambert, G. and Cox, J. (2022). Neigbourhood Bootstrap for Respondent-Driven Sampling. Accepted for publication in the *Journal of Survey Statistics and Methodology*. 
+4. **Yauck, M.**, Moodie, E., Apelian, H., Fourmigue, A., Grace, D., Hart, T., Lambert, G. and Cox, J. (2022). Neigbourhood Bootstrap for Respondent-Driven Sampling. *Journal of Survey Statistics and Methodology*, **10(2)**, pp.419-438. 
 
 5. **Yauck, M.**, Moodie, E., Apelian, H., Fourmigue, A., Grace, D., Hart, T., Lambert, G. and Cox, J. (2021). General regression methods for respondent-driven sampling data. *Statistical Methods in Medical Research*. https://journals.sagepub.com/doi/10.1177/09622802211032713
 
